@@ -1,0 +1,24 @@
+{
+  "name": "testexoclick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/exoclick.pre.ts",
+  "scripts": {
+    "test": "jest --config ./jest.config.json"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.14",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "typescript": "^4.0.2"
+  }
+}
